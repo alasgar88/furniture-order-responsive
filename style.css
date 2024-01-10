@@ -437,7 +437,7 @@ Our advantages
 .our-advantages-center {
   display: flex;
   align-items: center;
-  gap: 0 70px;
+  /* gap: 0 70px; */
 }
 
 .furniture {
@@ -508,6 +508,9 @@ Our advantages
   }
   .order-button {
     margin-top: var(--margin-3);
+  }
+  .our-advantages-center {
+    gap: 0px 0px;
   }
 }
 
