@@ -457,6 +457,9 @@ Our works
 
 /* buttons */
 .btn-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 175px;
   height: 58px;
   gap: 10px 0px;
@@ -501,6 +504,79 @@ Our works
   /* m */
   flex-direction: column;
   gap: 10px 0px;
+}
+
+/* work  card*/
+
+.work-card-container {
+  margin-top: 30px;
+}
+
+.work-card {
+  margin-bottom: 1rem;
+  color: rgba(0, 43, 69, 1);
+  /* padding: 50px 30px 30px 170px; */
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: #fbf6ef;
+}
+.word-card-title {
+  margin-bottom: 1rem;
+  font-family: var(--font-family-lora);
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-size-4);
+  line-height: 30.72px;
+}
+.packet-container {
+  display: flex;
+}
+.packet {
+  flex: 0 0 33.3%;
+}
+
+.packet-container {
+  margin: 50px 0px;
+}
+.packet-heading {
+  font-family: var(--font-family-lora);
+  font-size: var(--font-size-2);
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.packet-text {
+  font-family: var(--font-family-lora);
+  font-size: var(--font-size-2);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.specification {
+  font-family: var(--font-family-lora);
+  font-size: var(--font-size-2);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.word-card-button-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 0px 15px;
+}
+.word-btn-select {
+  width: 175px;
+  height: 58px;
+  background: transparent;
+  text-transform: uppercase;
+}
+.set-button {
+  width: 124.36px;
+  background: rgba(0, 43, 69, 1);
+  color: rgba(225, 225, 225, 1);
+  border: none;
 }
 
 @media screen and (min-width: 414px) {
@@ -563,6 +639,11 @@ Our works
   .our-works-heading {
     text-align: left;
   }
+
+  /* work card */
+  .work-card {
+    padding: 50px 30px 30px 170px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -592,7 +673,6 @@ Our works
   }
   .advantages-title {
     font-size: 36px;
-
     line-height: 43px;
   }
 }
