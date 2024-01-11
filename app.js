@@ -1,6 +1,7 @@
 const animeBoxes = document.querySelectorAll('.anime-box');
 const furniture = document.querySelector('.furniture');
 const workCard = document.querySelectorAll('.work-card');
+const globalBefore = document.querySelector('.before-global-work-container');
 
 document.addEventListener('DOMContentLoaded', function () {
   // header anime
@@ -28,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
       var positionWorkCard = item.getBoundingClientRect().top;
       // work card class
       if (positionWorkCard < windowHeight * 0.75) {
-        console.log('here');
         item.classList.add('show-work-card');
+        globalBefore.classList.add('show-global-container-before');
       }
     });
   });
