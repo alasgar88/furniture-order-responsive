@@ -2,6 +2,7 @@ const animeBoxes = document.querySelectorAll('.anime-box');
 const furniture = document.querySelector('.furniture');
 const workCard = document.querySelectorAll('.work-card');
 const globalBefore = document.querySelector('.before-global-work-container');
+const lineRight = document.querySelector('.line-container');
 
 document.addEventListener('DOMContentLoaded', function () {
   // header anime
@@ -30,7 +31,13 @@ document.addEventListener('DOMContentLoaded', function () {
       // work card class
       if (positionWorkCard < windowHeight * 0.75) {
         item.classList.add('show-work-card');
-        globalBefore.classList.add('show-global-container-before');
+        if (
+          !globalBefore.classList.contains('show-global-container-before') &&
+          !lineRight.classList.contains('show-line-container')
+        ) {
+          globalBefore.classList.add('show-global-container-before');
+          lineRight.classList.add('show-line-container');
+        }
       }
     });
   });
