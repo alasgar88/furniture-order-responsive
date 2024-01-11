@@ -104,7 +104,7 @@ header {
       rgba(0, 0, 0, 0.87) 10.87%,
       rgba(0, 0, 0, 0) 62.32%
     ),
-    url('./assets/images/header-img.png') center/cover no-repeat;
+    url('./assets/images/header-img-min.png') center/cover no-repeat;
 }
 
 .detail {
