@@ -364,8 +364,6 @@ Header info
 
 .anime-container {
   position: absolute;
-  /* width: 650px;
-  height: 450px; */
   top: 35%;
   left: 60%;
   transform: translate(-50%, -50%);
@@ -532,12 +530,9 @@ Our works
 .works-global-container {
   padding-top: 2rem;
   display: flex;
-  /* m */
   flex-direction: column;
   gap: 20px 0px;
   margin: 0 auto;
-  /* width: 900px; */
-  /* background: red; */
 }
 
 .our-works-heading {
@@ -548,21 +543,18 @@ Our works
   color: rgba(0, 43, 69, 1);
   font-size: 24px;
   line-height: 33px;
-  /* m */
   text-align: center;
 }
 
 .our-works-button-container {
   display: flex;
   flex-wrap: wrap;
-  /* m */
   flex-direction: column;
   height: 195px;
   align-content: space-between;
 }
 
 /* select button container */
-
 .select-button-container {
   display: flex;
   /* m */
@@ -616,16 +608,13 @@ Our works
 /* action button container */
 .action-button-container {
   display: flex;
-  /* m */
   flex-direction: column;
   gap: 10px 0px;
 }
 
 /* work  card*/
-
 .work-card-container {
   margin-top: 30px;
-  /* m */
   display: flex;
   flex-direction: column;
   gap: 30px 0;
@@ -635,7 +624,6 @@ Our works
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background: red; */
 }
 
 .work-card {
@@ -850,7 +838,6 @@ Our works
     gap: 0 0;
   }
   /* work card */
-
   .furniture-after {
     display: block;
     opacity: 1;
@@ -980,15 +967,9 @@ Our works
     justify-content: center;
     gap: 30px 0px;
   }
-  /* .work-card {
-    padding: 20px 20px 30px 80px;
-  } */
   .word-card-1 {
     width: 50%;
   }
-  /* .furniture-after {
-    left: -35.3%;
-  } */
 }
 
 @media screen and (min-width: 1280px) {
