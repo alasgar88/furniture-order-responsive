@@ -588,6 +588,39 @@ Our works
   color: rgba(225, 225, 225, 1);
 }
 
+.planing-button {
+  position: relative;
+}
+
+.planing-form {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  padding: 15px 8px;
+  box-shadow: 0px 4px 7.300000190734863px 6px rgba(0, 0, 0, 0.05);
+  background: white;
+  font-family: var(--font-family-lora);
+  font-size: var(--font-size-1);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  z-index: 10;
+  color: rgba(0, 43, 69, 1);
+}
+
+#planing-checkbox {
+  /* display: block; */
+  margin-bottom: 20px;
+}
+
+#planing-checkbox:last-child {
+  margin-bottom: 0;
+}
+
+#planing-checkbox[type='checkbox'] {
+  margin-right: 10px; /* Adjust the margin value as needed */
+}
 .btn-mini {
   width: 124.36px;
 }
