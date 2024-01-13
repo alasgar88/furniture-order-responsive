@@ -667,6 +667,7 @@ Our works
   height: 100%;
   border-right: none;
   z-index: 0;
+  opacity: 0;
 }
 
 /* work  card*/
@@ -1035,6 +1036,9 @@ Our works
   }
   .word-card-1 {
     width: 50%;
+  }
+  .line-container {
+    opacity: 1;
   }
 }
 
